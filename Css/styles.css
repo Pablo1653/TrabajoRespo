@@ -1,0 +1,449 @@
+* {
+	/* box-sizing: border-box; */
+	padding: 0;
+	margin: 0;
+}
+
+/* Menu Superior */
+nav{
+    background-color: rgb(233, 233, 87);
+    margin-top: 1em;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+.item {
+    background-color: grey;
+    border-radius: 10px;
+    padding: auto;
+    text-align: center;
+}
+/* Fin Menu Superior */
+
+
+#produ{
+    text-align: center;
+}
+#donatello{
+    width: 1000px;
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.lista{
+    text-align: left;
+    
+}
+
+
+#titulogran1{
+    margin: 1px 1px 1px 1px;
+    text-align:center;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.tarjeta a {
+    color: hsl(36, 5, 5);
+    text-decoration: none;
+}
+.tarjeta a:hover{
+    box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+
+}
+.tarjeta-content h4{
+    text-align: center;
+    margin-top: 0 ;
+    margin-bottom: .5em;
+    font-weight: bold;
+    }
+
+figure{
+    margin: 10px;;
+    }
+img{
+    display:block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+   
+#contenido_principal{
+    width: 90%;
+    height: 850px;	 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    }
+    #contenido_principal ol{
+        text-align: justify;
+        padding-left: 15px;
+    }
+
+    #presentacion{
+        width: 60%;
+        min-height: 300px;
+        height: auto;
+        background-color: #32344f;
+        float: left;
+        margin:auto;
+        padding: 10px;
+        box-sizing: border-box;
+        }   
+
+        #titulo_principal {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin: 1px 10px 10px 10px;
+            }
+
+            #contenido_articulo{
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                }
+                #imagen1{
+                    width: 40%;
+                    min-height: 300px;
+                    height: auto;
+                    float: left;
+                    background-image: url(../Img/Hongos\ hervidos.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    box-sizing: border-box;
+                    }
+
+#texto_contenido{
+    width: 30%;
+    min-height: 300px;
+    background-color:pink;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+        
+    #contenido_segundo{
+        font-family: Helvetica;
+        font-size: 15px;
+        padding: 2px;
+        box-sizing: border-box;
+        }
+    #imagen2{
+        width: 40%;
+        min-height: 300px;
+        background-color: #b37062;
+        float: left;
+        margin-bottom: 10px;
+        background-image: url(../Img/Salteado\ de\ hongos.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        }
+        
+
+#destacado{
+    max-width: 20%;
+    min-height: 300px;
+    background-color: #3d3d3a;
+    float: right;
+    padding: 10px;
+    box-sizing: border-box;
+    }                        
+    #contenido_destacado{
+    font-family: Arial;
+    font-size: 30px;
+    }       
+    #imagen3{
+        width: 100%;
+        min-height: 300px;
+        float: left;
+        margin-bottom: 10px;
+        background-image: url(../Img/granjahong.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-sizing: border-box;
+        }
+   
+    .procedimiento{
+        font-size: 18px;
+        padding: 4px;
+    }
+    .lasesion
+    #presentacion, 
+    #contenido_segundo,
+    #contenido_destacado{
+        font-size: 1vh;
+    }
+    
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .tarjeta{
+        flex: 100%;
+        max-width: 100%;
+        margin: 0 2px;
+        text-align: justify;
+        background-color:hsl(0, 0, 100%) ;
+    }
+
+footer{
+    clear: both;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    background-color: black;
+    text-align: right;
+    color: white;
+    margin: 1px auto;
+    padding: 10px;
+}
+
+
+
+
+
+    #condiciones{
+    font-size: arial;
+    margin: 0.01px 10px 20px 10px;
+    color: black;
+    }
+    #produ{
+    font-size: arial;
+    margin: 0.01px 10px 20px 10px;
+    color: black; 
+    }
+    a {
+    color: rgb(233, 233, 87);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s; }
+    a:focus, a:hover {
+      color:purple; }
+  
+  .parrafito{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px; }
+  
+ 
+  .negrita {
+    color: white;
+    background-color: #222222 ; }
+    
+  section {
+        min-height: calc(100vh - 100px - 100px);
+        padding: 20px 0; 
+    }
+  
+  .nst{
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 20px;
+  }
+  .parrafito1{
+      text-align: center;
+      float: auto;
+      box-sizing: border-box;
+      margin: auto;
+      color: cornflowerblue;
+      font-size: 20px;
+      width: 100%;
+      position: relative;
+
+  }
+ 
+  .lasesion {
+    background-color:rgb(233, 233, 86);
+    margin: auto;
+    width: 100%;
+        min-height: 300px;
+        height: auto;
+        float: left;
+    
+        padding: 10px;
+        box-sizing: border-box;
+ 
+    
+    }
+ 
+
+   .lasesion{
+        position: relative;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        color: white;
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+        margin: 70px 0px 0px 0px;
+        box-sizing: border-box;
+        float: left;
+        }
+    
+        .trebol{
+            position: relative;
+        width: 100%;
+        text-align: center;
+        
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+        margin: 70px 0px 0px 0px;
+        box-sizing:border;
+        float: left;
+        }
+
+    
+
+  div.principal{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    color: white;
+    background-image: url("../Img/Esporulando.png");
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; 
+    margin: 70px 0px 0px 0px;
+    box-sizing: border-box;
+    float: left;
+    }
+
+   
+    div.principal .principalito {
+      position: relative;
+      width: 100%;
+      padding: 150px 15px 100px;
+      text-align: center; }
+      
+      
+  
+  .a_la_carga{
+    padding: 50px 0; }
+    .a_la_carga h2 {
+      margin: 0 auto 20px; }
+  
+  
+  
+  .boton {
+    color: #222222;
+    border-color: white;
+    background-color: white; }
+    
+   
+  .btn {
+    font-weight: 70px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
+  
+  .boton_grande {
+    padding: 15px 30px; 
+    margin: auto;}
+
+  
+#video{
+
+        position: relative;
+        width: 100%;
+        height: 400px;
+        text-align: center;
+        color: white;
+        background-image: url("../Video/Hongos.mp4");
+        background-position: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+        margin: 70px 0px 0px 0px;
+        box-sizing: border-box;
+        float: left;
+        }
+    
+
+/* Responsive */
+
+@media all and (max-width: 266px) {
+    nav{
+        padding: auto 0;
+    }
+    .item{
+        margin: 1px;
+        width: 100%;
+    }
+}
+@media all and (min-width: 267px) {
+    .menu {
+        justify-content: center;
+    }
+    .item{
+        margin-top: 1px;
+        width: 80%;
+    }
+}
+@media all and (min-width: 400px) {
+    .item{
+        margin: 1px;
+        display: block;
+        width: 40%;
+    }
+    /**/
+    
+    .lasesion
+    #presentacion, 
+    #contenido_segundo,
+    #contenido_destacado{
+        font-size: 1.5vh;
+    }
+    .tarjeta{
+        flex: 40%;
+        max-width: 40%;
+    }
+}
+@media all and (min-width: 551px) {
+
+    .lasesion   
+    #presentacion, 
+    #contenido_segundo,
+    #contenido_destacado{
+        font-size: 2vh;
+    }
+}
+@media all and (min-width: 670px) {
+    .item{
+        width: auto;
+    }
+    .tarjeta{
+        flex: 33%;
+        max-width: 33%;
+    }
+}
+
